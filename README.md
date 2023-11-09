@@ -1,4 +1,1 @@
-# RECURSOS PARA CURSOS
-
-## NIVEL 1:
-* (Curso de maquetación)[]
+# CURSO DE MAQUETACION NIVEL 1
