@@ -40,3 +40,13 @@ Existen dos formas de comenzar a trabajar con **Git**, una es creando un reposit
 * git push: Envía tus commits locales al repositorio remoto para compartir tus cambios con otros colaboradores.
 
 * git clone : Clona un repositorio Git existente desde una ubicación remota a tu máquina local.
+
+## PASOS PARA HACER LA TAREA
+### Clonar repositorio
+* Ir a la url del repositorio: [https://github.com/zenx5/academia-recursos](https://github.com/zenx5/academia-recursos)
+* Cuanda abrá debe hacer click en el boton verde llamado **code**
+  * Se abrira un pequeño modal con varias opciones para copiar la url
+  * Debe seleccionar la url que esta en la pestaña donde dice **https**
+    ![image](https://github.com/zenx5/academia-recursos/assets/26119733/4865df5b-2c3d-4e64-a1e7-ff957fd9b44e)
+* Luego de copiar la url anterior debe ir al **VSCode** en 
+
