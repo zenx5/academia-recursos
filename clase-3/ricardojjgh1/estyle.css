@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+color: black;
+    background-image: url(img/enfermedades-cronicas-frecuentes-encuentran-avances_1729637699_168296602_667x375.jpg)
+}
+h1{
+    width: 500px;
+    right: 500px;
+    font-size: 50px ;
+    text-justify: auto;
+    font-style: italic;
+    font-variant: initial;
+    margin-left: auto;
+    margin-right: auto;
+}
+span{
+    color: blue;
+    font-variant: small-caps;
+}
+div.diae { 
+    width: 200px;
+    height: 200px;
+    padding: 2%;
+    background-color: aqua;
+    border-radius: 0%;
+    border: solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: justify;
+}
+div.diad { 
+    text-align: justify;
+    width: 200px;
+    height: 200px;
+    margin-left: 39%;
+    margin-right: 40px;
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: solid black;
+    margin left: 20%;
+    margin right: 20%;
+    margin top: 10%;
+    margin bottom: 10%;
+}
