@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tarea de Tailwind</title>
+  </head>
+  <body>
+    <form class="bg-green-500 w-1/2 rounded-md p-8 mx-12 my-12 space-y-4">
+        <h1>Bienvenido</h1>
+      <label for="name">Nombre: </label>
+      <input type="text" id="nombre" name="name" /><br />
+      <label for="apellido">Apellido: </label>
+      <input type="text" id="apellido" name="apellido" /><br />
+      <label for="birth">Fecha de Nac.: </label>
+      <input type="date" /><br />
+      <label for="correo">email: </label>
+      <input type="email" id="correo" name="correo" /><br />
+      <label for="femenino">Femenino</label>
+      <input type="radio" name="sexo" id="femenino" value="Femenino" />
+      <label for="masculino">Masculino</label>
+      <input type="radio" name="sexo" id="masculino" value="masculino" /><br />
+      <input type="submit" value="Submit" class="pt-6 px-8 border-solid border-2 border-sky-500 p-8" />
+    </form>
+  </body>
+</html>
