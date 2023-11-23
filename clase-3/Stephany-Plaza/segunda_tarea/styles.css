@@ -1,0 +1,24 @@
+#caja_padre{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 350px;
+}
+#cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 35px;
+    padding: 10%;
+    border: 15px solid green;
+    
+}
+#circulo{
+    background-color: yellowgreen;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    margin-top: 25px;
+    padding: 10%;
+    border: 10px double darkblue;
+}

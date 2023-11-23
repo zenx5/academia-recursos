@@ -1,0 +1,14 @@
+.nombre{
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    color: salmon;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.nombre img{
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+}
