@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="fonts/font.css" rel="stylesheet"/>
+    <link href="fonts/font.css" rel="stylesheet" />
     <title>Prueba 1</title>
-</head>
-<body class="h-screen bg-gradient-to-b from-[#ffffff1a] to-black">
-
-
-</body>
+  </head>
+  <body
+    class="h-screen bg-gradient-to-b from-[#ffffff1a] to-black text-white font-sans text-center">
+    <div class="bg-black flex flex-col w-97 border rounded-lg w-6/12">
+    <h1 class="text-4xl">Inicia Sesion en Spotify</h1>
+    <button class="border rounded-full w-80 mb-4 mt-12 font-bold">
+      <img src="./assets/google.png" alt="logo_google"/>Continuar
+      con Google
+    </button>
+    <button class="border rounded-full w-80 mb-4 font-bold ">
+      <img src="./assets/facebook.png" alt="logo_facebook" />Continuar con
+      Facebook
+    </button>
+    <button class="border rounded-full w-80 mb-12 font-bold">
+      <img src="./assets/apple.png" alt="logo_apple" />Continuar con Apple
+    </button>
+    <form class="flex flex-col text-sm mb-4">
+      <label for="email"  class="mb-2">Email o nombre de usuario</label>
+      <input type="text" class="mb-4 w-80 border rounded h-11 bg-zinc-800" placeholder="Email o nombre de usuario" />
+      <label for="password" class="mb-4">Contraseña</label>
+      <input type="password" class="mb-4 w-80 border rounded h-11 bg-zinc-800" placeholder="Contraseña" />
+      <label class="relative inline-flex items-center cursor-pointer mb-2">
+        <input type="checkbox" value="" class="sr-only peer" />
+        <div
+          class="w-7 h-4 bg-[#727272] peer-focus:outline-none peer-focus:ring-0 dark:peer-focus:ring-[#1ed760] rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-black after:content-[''] after:absolute after:top-[4px] after:left-[2px] after:bg-[#121212] after:border-black after:border after:rounded-full after:h-3 after:w-3 after:transition-all dark:border-black peer-checked:bg-[#1ed760]"
+        ></div>
+        <span class="block ml-4 text-sm font-medium text-white"
+          >Recordarme</span
+        >
+      </label>
+      <button class="bg-green-600 mb-2 w-80 h-11 border rounded-full mt-4 text-black">Iniciar Sesion</button>
+      <a href="#" class="mb-2">Has olvidado la contraseña?</a>
+      <span class="mb-2">No tienes cuenta? <a href="#">Registrate en Spotify</a></span>
+    </form>
+</div>
+  </body>
 </html>
